@@ -1,5 +1,5 @@
 import { FileText, Linkedin } from 'lucide-react';
-
+import { socialLinks } from '../data';
 const About = () => {
   return (
     <section id="about" className="py-20 bg-dark-900">
@@ -25,7 +25,7 @@ const About = () => {
 
             <div className="flex flex-wrap justify-center gap-4">
               <a 
-                href="/cv.pdf" 
+                href="src\docs\Currículo -  Kaiky Pires.pdf" 
                 target="_blank" 
                 className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition-all"
               >
@@ -33,7 +33,7 @@ const About = () => {
                 Ver Currículo
               </a>
               <a 
-                href="https://linkedin.com/in/yourprofile" 
+                href="https://www.linkedin.com/in/kaiky-pires/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-[#0A66C2] hover:opacity-90 text-white px-6 py-3 rounded-lg transition-all"

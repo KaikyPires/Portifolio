@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "E-commerce Platform",
     description: "A full-featured online store with product listings, cart functionality, and checkout process.",
     fullDescription: "A comprehensive e-commerce solution built with React and Node.js. Features include user authentication, product search, filtering, shopping cart, payment processing integration, and order tracking. The platform is fully responsive and offers an intuitive shopping experience.",
-    image: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://github.com/KaikyPires/Portifolio/blob/main/src/docs/Nossa%20Arena.png",
     technologies: ["React", "Node.js", "MongoDB", "Stripe API", "AWS"],
     demoLink: "https://example.com/ecommerce",
     githubLink: "https://github.com/yourusername/ecommerce"
@@ -34,7 +34,7 @@ export const projects: Project[] = [
 ];
 
 export const socialLinks = {
-  github: "https://github.com/KaikyPires",
+  github: "",
   linkedin: "https://www.linkedin.com/in/kaiky-pires/",
   email: "kaiky.pires@yahoo.com.br"
 };
