@@ -25,7 +25,7 @@ const About = () => {
 
             <div className="flex flex-wrap justify-center gap-4">
               <a 
-                href="src\docs\Currículo -  Kaiky Pires.pdf" 
+                href="https://github.com/KaikyPires/Portifolio/blob/d48ec942a70b6d8a8e767cd3fc5dbec4df54ef66/src/docs/Curr%C3%ADculo%20-%20%20Kaiky%20Pires.pdf" 
                 target="_blank" 
                 className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition-all"
               >
