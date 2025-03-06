@@ -154,6 +154,7 @@ export default defineConfig({
       },
     },
   ],
+  base: "/Portifolio/", // Adicione esta linha
   server: {
     allowedHosts: true,
   },
