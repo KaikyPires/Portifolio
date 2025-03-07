@@ -1,7 +1,7 @@
-import { Heart } from 'lucide-react';
+
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
+ 
   
   return (
     <footer className="bg-dark-950 text-white py-8">
@@ -19,12 +19,7 @@ const Footer = () => {
           <div className="flex justify-center mb-6">
             <div className="h-1 w-16 bg-purple-600 rounded-full"></div>
           </div>
-          
-          <p className="flex items-center justify-center text-gray-500 text-sm">
-            <span>© {currentYear} Seu Nome. Todos os direitos reservados. Feito com</span>
-            <Heart className="mx-1 text-red-500" size={16} />
-            <span>e React</span>
-          </p>
+      
         </div>
       </div>
     </footer>

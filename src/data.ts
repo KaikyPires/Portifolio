@@ -1,36 +1,40 @@
 import { Project } from "./types";
 import {Technology } from "./types";
+import Sark from "./docs/Sark.png"
+import Terminal from "./docs/Terminal.webp"
+import NossaArena from "./docs/Nossa Arena.png";
 export const projects: Project[] = [
   {
+    id: 3,
+    title: "Nossa Arena",
+    description: "Aplicação para gerenciar partidas e receitas de uma arena de jogos.",
+    fullDescription: "Nossa Arena é uma aplicação desenvolvida para gerenciar partidas e receitas de uma arena de jogos, bem como oferecer a funcionalidade de agendamento de partidas através de um calendário. O projeto calcula receitas diárias, semanais, mensais, anuais e das últimas 24 horas, exibindo os dados de forma clara. Através do calendário, os usuários podem agendar partidas em horários disponíveis, gerenciando os agendamentos diretamente na interface.",
+    image: NossaArena,
+    technologies:  ["HTML", "CSS", "JavaScript", "Java","Spring Boot", "MySQL"],
+
+    githubLink: "https://github.com/KaikyPires/Nossa-Arena"
+  },
+  {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-featured online store with product listings, cart functionality, and checkout process.",
-    fullDescription: "A comprehensive e-commerce solution built with React and Node.js. Features include user authentication, product search, filtering, shopping cart, payment processing integration, and order tracking. The platform is fully responsive and offers an intuitive shopping experience.",
-    image: "https://github.com/KaikyPires/Portifolio/blob/main/src/docs/Nossa%20Arena.png",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe API", "AWS"],
+    title: "Sark",
+    description: "Uma loja de roupas online com integração ao Mercado Pago para pagamentos.",
+    fullDescription: "Criação de uma plataforma de e-commerce desenvolvida para vender roupas de forma eficiente e segura. O projeto inclui integração com o Mercado Pago para processamento de pagamentos, oferecendo uma experiência de compra fluida e confiável para os usuários.",
+    image: Sark,
+    technologies: ["React","JavaScript", "Java ", "Spring Boot", "MySQL"],
     demoLink: "https://example.com/ecommerce",
     githubLink: "https://github.com/yourusername/ecommerce"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A productivity tool for organizing tasks with drag-and-drop interface and team collaboration features.",
-    fullDescription: "This task management application helps teams stay organized with features like task creation, assignment, status tracking, and deadline management. Built with a focus on user experience, it includes drag-and-drop functionality, color-coding, and real-time updates.",
-    image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Terminal",
+    description: "Um terminal de comandos desenvolvido para um trabalho de sistema operacional.",
+    fullDescription: "O Terminal é um projeto desenvolvido para simular um ambiente de linha de comandos, semelhante a terminais de sistemas operacionais como Linux ou Windows. O terminal foi criado como parte de um trabalho acadêmico para demonstrar o funcionamento de comandos básicos e a interação entre o usuário e o sistema operacional.",
+    image: Terminal,
     technologies: ["React", "Redux", "Firebase", "Material UI"],
     demoLink: "https://example.com/taskapp",
     githubLink: "https://github.com/yourusername/taskapp"
   },
-  {
-    id: 3,
-    title: "Portfolio Website",
-    description: "A professional portfolio website showcasing skills, projects, and contact information.",
-    fullDescription: "My personal portfolio website designed to showcase my work and skills. Built with React and styled with Tailwind CSS, it features smooth animations, responsive design, and an intuitive user interface. The site includes sections for projects, about me, and a contact form.",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    demoLink: "https://yourportfolio.com",
-    githubLink: "https://github.com/yourusername/portfolio"
-  }
+  
 ];
 
 export const socialLinks = {
@@ -44,17 +48,18 @@ export const technologies: Technology[] = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
   {
-    name: "TypeScript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    name: "Java",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+  },
+  {
+    name: "Spring",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
   },
   {
     name: "JavaScript",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
   },
-  {
-    name: "Node.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-  },
+ 
   {
     name: "HTML5",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -63,12 +68,9 @@ export const technologies: Technology[] = [
     name: "CSS3",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
   },
+
   {
-    name: "Tailwind CSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-  },
-  {
-    name: "MongoDB",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    name: "MySql",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
   }
 ];

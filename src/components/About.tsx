@@ -1,5 +1,5 @@
 import { FileText, Linkedin } from 'lucide-react';
-import { socialLinks } from '../data';
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-dark-900">
