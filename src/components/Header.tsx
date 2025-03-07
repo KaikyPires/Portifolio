@@ -35,7 +35,7 @@ const Header = () => {
           duration={800}
           className="text-xl font-bold cursor-pointer"
         >
-          <span className="text-purple-400">Port</span>
+          <span className="text-purple-400">Porti</span>
           <span className="text-white">folio</span>
         </Link>
 
