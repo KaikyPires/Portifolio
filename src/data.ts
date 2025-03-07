@@ -1,7 +1,7 @@
 import { Project } from "./types";
 import {Technology } from "./types";
-import Sark from "./docs/Sark.png"
-import Terminal from "./docs/Terminal.webp"
+import Sark from "./docs/Sark-logo.png"
+import Terminal from "./docs/Terminal.png"
 import NossaArena from "./docs/Nossa Arena.png";
 export const projects: Project[] = [
   {
@@ -21,8 +21,8 @@ export const projects: Project[] = [
     fullDescription: "Criação de uma plataforma de e-commerce desenvolvida para vender roupas de forma eficiente e segura. O projeto inclui integração com o Mercado Pago para processamento de pagamentos, oferecendo uma experiência de compra fluida e confiável para os usuários.",
     image: Sark,
     technologies: ["React","JavaScript", "Java ", "Spring Boot", "MySQL"],
-    demoLink: "https://example.com/ecommerce",
-    githubLink: "https://github.com/yourusername/ecommerce"
+    
+    githubLink: "https://github.com/Joao-Dutra/Projeto_SARK"
   },
   {
     id: 2,
@@ -30,9 +30,9 @@ export const projects: Project[] = [
     description: "Um terminal de comandos desenvolvido para um trabalho de sistema operacional.",
     fullDescription: "O Terminal é um projeto desenvolvido para simular um ambiente de linha de comandos, semelhante a terminais de sistemas operacionais como Linux ou Windows. O terminal foi criado como parte de um trabalho acadêmico para demonstrar o funcionamento de comandos básicos e a interação entre o usuário e o sistema operacional.",
     image: Terminal,
-    technologies: ["React", "Redux", "Firebase", "Material UI"],
-    demoLink: "https://example.com/taskapp",
-    githubLink: "https://github.com/yourusername/taskapp"
+    technologies: ["HTML", "CSS", "JavaScript", "Java","Spring Boot",],
+    
+    githubLink: "https://github.com/KaikyPires/Terminal"
   },
   
 ];
