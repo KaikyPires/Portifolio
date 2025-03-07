@@ -23,7 +23,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-300 font-light mb-8">
-              <span className="text-purple-400">Desenvolvedor</span> | Criador de Soluções Digitais
+              <span className="text-purple-400">Desenvolvedor</span>
             </p>
             
             <div className="animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
