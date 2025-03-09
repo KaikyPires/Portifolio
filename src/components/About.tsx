@@ -12,16 +12,10 @@ const About = () => {
         <div className="max-w-3xl mx-auto">
           <div className="bg-dark-850 rounded-lg p-8 border border-gray-800">
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Olá! Sou um desenvolvedor apaixonado por criar soluções digitais inovadoras e funcionais. 
-              Com experiência em desenvolvimento web e mobile, busco sempre aprender novas tecnologias 
-              e aprimorar minhas habilidades para entregar produtos de alta qualidade.
+            Olá! Sou o Kaiky, graduando em Sistemas de Informação no IFMG e apaixonado por desenvolvimento de software. Tenho experiência em Java e Spring Boot, além de interesse constante em aprender novas tecnologias. Busco uma oportunidade de estágio onde possa aplicar meus conhecimentos e continuar evoluindo profissionalmente.
             </p>
             
-            <p className="text-gray-300 mb-8 leading-relaxed">
-              Minha abordagem combina criatividade com metodologias ágeis, resultando em aplicações 
-              intuitivas e eficientes. Sou movido por desafios e acredito que a tecnologia tem o 
-              poder de transformar negócios e vidas.
-            </p>
+  
 
             <div className="flex flex-wrap justify-center gap-4">
               <a 
