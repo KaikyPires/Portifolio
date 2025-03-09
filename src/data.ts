@@ -70,7 +70,7 @@ export const projects: Project[] = [
 ];
 
 export const socialLinks = {
-  github: "",
+  github: "https://github.com/KaikyPires",
   linkedin: "https://www.linkedin.com/in/kaiky-pires/",
   email: "kaiky.pires@yahoo.com.br"
 };
