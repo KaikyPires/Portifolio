@@ -44,7 +44,7 @@ export const projects: Project[] = [
   fullDescription: "Criação de um quiz interativo para ensinar HTML e CSS a meninas do ensino médio de escolas públicas. Responsivo e hospedado no GitHub, o projeto reforça os conceitosensinados de forma prática e divertida. Tecnologias: HTML, CSS e JavaScript.",
   image: VaiMeninas,
   technologies: ["HTML", "CSS", "JavaScript"],
-  
+  demoLink: "https://kaikypires.github.io/Quiz_Vai-Meninas/",
   githubLink: "https://github.com/KaikyPires/Quiz_Vai-Meninas"
 },
 {
@@ -64,7 +64,7 @@ export const projects: Project[] = [
   fullDescription: "Desenvolvi um algoritmo A* para percorrer um labirinto de forma eficiente, utilizando o Luigi como personagem interativo. O caminho é calculado em tempo real, mostrando a busca pelo trajeto mais curto. A interface exibe o Luigi se movendo pelo labirinto, tornando a experiência mais visual e dinâmica. O projeto combina conceitos de inteligência artificial e interação gráfica para um resultado envolvente. Ideal para demonstrar algoritmos de busca de maneira intuitiva e divertida.",
   image: Algoritimo,
   technologies: ["HTML", "CSS", "JavaScript"],
-  
+  demoLink: "https://kaikypires.github.io/Algoritmo-A/",
   githubLink: "https://github.com/KaikyPires/Algoritmo-A"
 }
 ];

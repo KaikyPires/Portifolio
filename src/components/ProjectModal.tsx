@@ -98,6 +98,7 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition-colors"
                     >
+                      
                       <Github size={18} />
                       Ver Código
                     </a>

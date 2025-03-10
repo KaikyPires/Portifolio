@@ -35,8 +35,8 @@ const Header = () => {
           duration={800}
           className="text-xl font-bold cursor-pointer"
         >
-          <span className="text-purple-400">Porti</span>
-          <span className="text-white">folio</span>
+          <span className="text-purple-400">De</span>
+          <span className="text-white">v</span>
         </Link>
 
         {/* Desktop Navigation */}
