@@ -5,7 +5,7 @@ import Terminal from "./docs/terminal_logo.png"
 import NossaArena from "./docs/Nossa Arena.png";
 import VaiMeninas from "./docs/vai_meninas.png";
 import LojaDeImoveis from "./docs/sofa.jpg";
-import Algoritimo from "./docs/luigi.jpg";
+import Algoritimo from "./docs/image.png";
 export const projects: Project[] = [
   {
     id: 3,
@@ -60,8 +60,8 @@ export const projects: Project[] = [
 {
   id: 6,
   title: "Algoritimo A*",
-  description: "Luigi explorando labirintos com A*",
-  fullDescription: "Desenvolvi um algoritmo A* para percorrer um labirinto de forma eficiente, utilizando o Luigi como personagem interativo. O caminho é calculado em tempo real, mostrando a busca pelo trajeto mais curto. A interface exibe o Luigi se movendo pelo labirinto, tornando a experiência mais visual e dinâmica. O projeto combina conceitos de inteligência artificial e interação gráfica para um resultado envolvente. Ideal para demonstrar algoritmos de busca de maneira intuitiva e divertida.",
+  description: "Mario explorando labirintos com A*",
+  fullDescription: "Desenvolvi um algoritmo A* para percorrer um labirinto de forma eficiente, utilizando o Mario como personagem interativo. O caminho é calculado em tempo real, mostrando a busca pelo trajeto mais curto. A interface exibe o Luigi se movendo pelo labirinto, tornando a experiência mais visual e dinâmica. O projeto combina conceitos de inteligência artificial e interação gráfica para um resultado envolvente. Ideal para demonstrar algoritmos de busca de maneira intuitiva e divertida.",
   image: Algoritimo,
   technologies: ["HTML", "CSS", "JavaScript"],
   demoLink: "https://kaikypires.github.io/Algoritmo-A/",
@@ -75,10 +75,7 @@ export const socialLinks = {
   email: "kaiky.pires@yahoo.com.br"
 };
 export const technologies: Technology[] = [
-  {
-    name: "React",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-  },
+  
   {
     name: "Java",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
@@ -86,6 +83,10 @@ export const technologies: Technology[] = [
   {
     name: "Spring",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+  },
+  {
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
   {
     name: "JavaScript",
