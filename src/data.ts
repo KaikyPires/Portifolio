@@ -14,7 +14,7 @@ export const projects: Project[] = [
     fullDescription: "Nossa Arena é uma aplicação desenvolvida para gerenciar partidas e receitas de uma arena de jogos, bem como oferecer a funcionalidade de agendamento de partidas através de um calendário. O projeto calcula receitas diárias, semanais, mensais, anuais e das últimas 24 horas, exibindo os dados de forma clara. Através do calendário, os usuários podem agendar partidas em horários disponíveis, gerenciando os agendamentos diretamente na interface.",
     image: NossaArena,
     technologies:  ["HTML", "CSS", "JavaScript", "Java","Spring Boot", "MySQL"],
-
+    demoLink: "https://nossa-arena-production.up.railway.app/",
     githubLink: "https://github.com/KaikyPires/Nossa-Arena"
   },
   {
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     fullDescription: "Criação de uma plataforma de e-commerce desenvolvida para vender roupas de forma eficiente e segura. O projeto inclui integração com o Mercado Pago para processamento de pagamentos, oferecendo uma experiência de compra fluida e confiável para os usuários.",
     image: Sark,
     technologies: ["React","JavaScript", "Java ", "Spring Boot", "MySQL"],
-    
+    demoLink: "https://kaikypires.github.io/Sark/",
     githubLink: "https://github.com/Joao-Dutra/Projeto_SARK"
   },
   {
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     fullDescription: "O Terminal é um projeto desenvolvido para simular um ambiente de linha de comandos, semelhante a terminais de sistemas operacionais como Linux ou Windows. O terminal foi criado como parte de um trabalho acadêmico para demonstrar o funcionamento de comandos básicos e a interação entre o usuário e o sistema operacional.",
     image: Terminal,
     technologies: ["HTML", "CSS", "JavaScript", "Java","Spring Boot"],
-    
+    demoLink: "https://kaikypires.github.io/Terminal/",
     githubLink: "https://github.com/KaikyPires/Terminal"
   },
   {
@@ -54,7 +54,7 @@ export const projects: Project[] = [
   fullDescription: "Uma aplicação web para uma loja de móveis permite que os clientes naveguem por um catálogo de produtos, visualizando detalhes e preços. A plataforma oferece filtros para facilitar a busca por categorias como sofás, mesas e cadeiras. Os usuários podem adicionar itens ao carrinho e finalizar a compra de forma segura. A loja também conta com um painel administrativo para gerenciar estoque e pedidos. Além disso, a aplicação é responsiva, garantindo uma boa experiência em qualquer dispositivo.",
   image: LojaDeImoveis,
   technologies: ["HTML", "CSS", "JavaScript", "Java","Spring Boot"],
-  
+  demoLink: "https://kaikypires.github.io/loja-de-moveis/#/",
   githubLink: "https://github.com/Joao-Dutra/Projeto_Loja-Moveis"
 },
 {
