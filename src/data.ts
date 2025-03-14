@@ -31,7 +31,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Terminal",
     description: "Um terminal de comandos desenvolvido para um trabalho de sistema operacional.",
-    fullDescription: "O Terminal é um projeto desenvolvido para simular um ambiente de linha de comandos, semelhante a terminais de sistemas operacionais como Linux ou Windows. O terminal foi criado como parte de um trabalho acadêmico para demonstrar o funcionamento de comandos básicos e a interação entre o usuário e o sistema operacional.",
+    fullDescription: "O Terminal é um projeto desenvolvido para simular um ambiente de linha de comandos, semelhante a terminais de sistemas operacionais como Linux ou Windows. O terminal foi criado como parte de um trabalho acadêmico para demonstrar o funcionamento de comandos básicos e a interação entre o usuário e o sistema operacional. Os comandos simulados seguem o padrão do Linux, incluindo instruções como mkdir, tree, cd, entre outros.",
     image: Terminal,
     technologies: ["HTML", "CSS", "JavaScript", "Java","Spring Boot"],
     demoLink: "https://kaikypires.github.io/Terminal/",
