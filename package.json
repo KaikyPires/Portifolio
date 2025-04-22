@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kaikypires.github.io/Portifolio",
   "name": "srcbook-app",
   "private": true,
   "version": "0.0.0",
@@ -7,11 +8,14 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "framer-motion": "^12.4.10",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.475.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

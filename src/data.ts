@@ -14,7 +14,7 @@ export const projects: Project[] = [
     fullDescription: "Nossa Arena é uma aplicação desktop desenvolvida para gerenciar partidas e receitas de uma arena de jogos, bem como oferecer a funcionalidade de agendamento de partidas através de um calendário. O projeto calcula receitas diárias, semanais, mensais, anuais e das últimas 24 horas, exibindo os dados de forma clara. Através do calendário, os usuários podem agendar partidas em horários disponíveis, gerenciando os agendamentos diretamente na interface.",
     image: NossaArena,
     technologies:  ["HTML", "CSS", "JavaScript", "Java","Spring Boot", "MySQL"],
-    demoLink: "https://nossa-arena-production.up.railway.app/",
+   
     githubLink: "https://github.com/KaikyPires/Nossa-Arena"
   },
   {
